@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "4221643a-8787-4698-9668-6db628c66668",
+		"name": "Announcement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAnnouncements",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://szqwts2ny3.execute-api.us-east-1.amazonaws.com/prod/announcements",
+					"protocol": "https",
+					"host": [
+						"szqwts2ny3",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"announcements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJvVWNwWGFNK2xQbzRwSHBaMTNFbnZxNlA1cytrakw3d2Jaa1lpQlhhZzF3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzMTcwMjhkMy04NjcwLTRkNjAtOGViNy1jN2FkZDU1YmQ1YzgiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIHBob25lIG9wZW5pZCBwcm9maWxlIGVtYWlsIiwiYXV0aF90aW1lIjoxNjQ1MDkwNjY4LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9FR0RKNFVlYnIiLCJleHAiOjE2NDUwOTQyNjgsImlhdCI6MTY0NTA5MDY2OCwidmVyc2lvbiI6MiwianRpIjoiNTc3ZmI2MTEtYjU2OS00OWNiLWJlYzgtOGJkZTU3OThlZGU1IiwiY2xpZW50X2lkIjoiMmw5dmF2NDRxZDdyN2tzNHFmbWpxcTl2NDEiLCJ1c2VybmFtZSI6ImFubm91bmNlbWVudGFkbWluIn0.np5MLRmpW_bl66xi3lVzDtOx3p6nEEZSIIns-1WinXcYOUvSF7BouV_CsO1-fRSowcFITDHmzggevsoCwEw8nf_tQRJ3m7NudPXOllMnKrfKYGIOy0xQpwSHHJ3_Awvtqftb44zmYuCqlPDGfPPV3nmYK_dzqDeaCn9MOHdinot11QgyjaKUC1QlOedP0O2JAyBaFqagDx6eKc9SM6UoO645RziDRsKxIUorCaU8xFbqyC2EWkfYjFPV0TQkYyjW36mGshIZtkFQIsbYmSZD-gGV1ULmfp7jjPkT7vCqIPNSvmP_laEdsPKSq3oeUF-b6enQ7mGLX3fr79W_lhomlA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"ann_desc\": \"created for testing\", \"ann_name\": \"test4\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://szqwts2ny3.execute-api.us-east-1.amazonaws.com/prod/announcement",
+					"protocol": "https",
+					"host": [
+						"szqwts2ny3",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
